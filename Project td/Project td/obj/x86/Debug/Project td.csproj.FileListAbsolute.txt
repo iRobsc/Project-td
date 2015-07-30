@@ -1,0 +1,30 @@
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\obj\x86\Debug\Project td.csprojResolveAssemblyReference.cache
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\Project td.exe
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\Project td.pdb
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\MonoGame.Framework.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.XAudio2.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.Direct3D11.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.DXGI.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.Direct2D1.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.XInput.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.RawInput.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.Direct3D9.dll
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\MonoGame.Framework.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.XAudio2.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.Direct3D11.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.DXGI.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.Direct2D1.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.XInput.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.RawInput.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\SharpDX.Direct3D9.xml
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\obj\x86\Debug\Project td.exe
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\obj\x86\Debug\Project td.pdb
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\Content\bullet1.xnb
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\Content\enemy1.xnb
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\Content\tile1.xnb
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\Content\tile2.xnb
+G:\Program\Sommarprojekt\Project-td\Project td\Project td\bin\Windows\Debug\Content\tower1.xnb
