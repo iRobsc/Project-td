@@ -15,7 +15,7 @@ namespace Project_td
     {
         public int type;
         public float hp = 10;
-        public float speed = 1;
+        public float speed = 1; // Moves x pixels each frame
         public Vector2 position;
         public Vector2 target;
         public List<Vector2> wavePath;
@@ -28,7 +28,7 @@ namespace Project_td
             this.wavePath = wavePath;
         }
 
-        public double distance()
+        public double distance() // Calculates the distance between the enemy and the target node
         {
             float deltaY = position.Y - target.Y;
             float deltaX = position.X - target.X;
@@ -36,31 +36,30 @@ namespace Project_td
             return Math.Abs(Math.Sqrt(Math.Pow(deltaX, 2) + Math.Pow(deltaY, 2)));
         }
 
-        public Vector2 calculateDirection()
+        public Vector2 calculateDirection() // Uses trigonometry to calculate what direction the enemy should be travelling and the return value is given as a Vector2 ( which means a 2D vector )
         {
-            float deltaY = position.Y - target.Y;
-            float deltaX = position.X - target.X;
+            float deltaY = target.Y - position.Y; // The distance between the target and the current position (Y)
+            float deltaX = target.X - position.X; // The distance between the target and the current position (X)
 
-            return -(new Vector2((float)Math.Cos(Math.Atan2(deltaY, deltaX)),
-                               (float)Math.Sin(Math.Atan2(deltaY, deltaX))));
+            return new Vector2((float)Math.Cos(Math.Atan2(deltaY, deltaX)), // Returns the direction vector calculated with (Math.Atan2(deltaY, deltaX)) Which is the angle of the enemys direction. Explanation: http://i.imgur.com/jlC8F3J.png
+                               (float)Math.Sin(Math.Atan2(deltaY, deltaX)));
         }
 
         public void move()
         {
-            if (distance() <= speed && currentNode + 1 < wavePath.Count)
+            if (distance() <= speed && currentNode + 1 < wavePath.Count) // If the enemy reached the desired destination (the node), then move to the next node in the wavePath and set the new node as the target
             {
-                target = main.tiles[(int)wavePath[currentNode + 1].X,
-                                    (int)wavePath[currentNode + 1].Y].position;
                 currentNode += 1;
+                target = main.tiles[(int)wavePath[currentNode].X,
+                                    (int)wavePath[currentNode].Y].position;
             }
 
-            else if (distance() <= speed && currentNode + 1 == wavePath.Count)
+            else if (distance() <= speed && currentNode + 1 == wavePath.Count) // if the enemy has reached the last node and the distance left is less or equal to the enemies speed, then set reachedGoal to true so it can be handled elsewhere
             {
                 reachedGoal = true;
             }
 
-            position += speed * calculateDirection();
-
+            position += speed * calculateDirection(); // This is the actual movement, it moves with speed times the direction (This is also a clever use of the return function)
         }
     }
 }

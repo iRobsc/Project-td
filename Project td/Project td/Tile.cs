@@ -13,9 +13,9 @@ namespace Project_td
 {
     public class Tile
     {
-        public static int trueWidth = 32;
+        public static int trueWidth = 32; // Width and height of the tile
         public static int trueHeight = 32;
-        public static float width = 1;
+        public static float width = 1; // This makes the pictures as big as the files say they are, e.g. if it's a 32x32 picture then it's 32x32 ingame (Don't change these numbers)
         public static float height = 1;
         public int tileType = 0;
         public Vector2 position;
